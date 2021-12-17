@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-17T13:06:21 IST" name="Suite" finished-at="2021-12-17T13:06:52 IST" duration-ms="30673">
+    <groups>
+      <group name="Smoke">
+        <method signature="LoginPageTestCase.HRM_LoginPage_VerifyWithValidCredentials()[pri:0, instance:testcases.LoginPageTestCase@524d6d96]" name="HRM_LoginPage_VerifyWithValidCredentials" class="testcases.LoginPageTestCase"/>
+        <method signature="SystemUserTestCases.verifySystemUserPage()[pri:0, instance:testcases.SystemUserTestCases@3738449f]" name="verifySystemUserPage" class="testcases.SystemUserTestCases"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2021-12-17T13:06:21 IST" name="Test" finished-at="2021-12-17T13:06:52 IST" duration-ms="30673">
+      <class name="testcases.LoginPageTestCase">
+        <test-method is-config="true" signature="login(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginPageTestCase@524d6d96]" started-at="2021-12-17T13:06:21 IST" name="login" finished-at="2021-12-17T13:06:34 IST" duration-ms="12264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="HRM_LoginPage_VerifyWithValidCredentials()[pri:0, instance:testcases.LoginPageTestCase@524d6d96]" started-at="2021-12-17T13:06:34 IST" name="HRM_LoginPage_VerifyWithValidCredentials" finished-at="2021-12-17T13:06:34 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HRM_LoginPage_VerifyWithValidCredentials -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.LoginPageTestCase@524d6d96]" started-at="2021-12-17T13:06:34 IST" name="closeBrowser" finished-at="2021-12-17T13:06:35 IST" duration-ms="1419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.LoginPageTestCase -->
+      <class name="testcases.SystemUserTestCases">
+        <test-method is-config="true" signature="login(java.lang.String,java.lang.String)[pri:0, instance:testcases.SystemUserTestCases@3738449f]" started-at="2021-12-17T13:06:35 IST" name="login" finished-at="2021-12-17T13:06:48 IST" duration-ms="12524" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="verifySystemUserPage()[pri:0, instance:testcases.SystemUserTestCases@3738449f]" started-at="2021-12-17T13:06:48 IST" name="verifySystemUserPage" finished-at="2021-12-17T13:06:51 IST" duration-ms="2976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySystemUserPage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.SystemUserTestCases@3738449f]" started-at="2021-12-17T13:06:51 IST" name="closeBrowser" finished-at="2021-12-17T13:06:52 IST" duration-ms="1413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.SystemUserTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
